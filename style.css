@@ -250,7 +250,6 @@ h1{
 
  .sezione-4{
     width: 100%;
-    
  }
 
  .big-container{
@@ -269,9 +268,12 @@ h1{
 
  .col-2{
     width: calc(100% / 3);
-    height: 350px;
-    background-color: aqua;
-    border: 2px solid black;
+    padding-right: 0.5rem;
+    margin-top: 1rem;
+ }
+
+ .image{
+   width: 100%;
  }
 
  .rectangle{
@@ -288,18 +290,67 @@ h1{
    
  }
 
+ .logo-clienti{
+   width: 50%;
+   color: white;
+ }
+ .logo-selezionato{
+   width: 60%;
+ }
+
  .square{
     width: calc(100% / 3);
-    height: 400px;
-    border: 1px solid black;
+    height: 490px;
+    background-color: #f5f5f5;
     display: flex;
     flex-wrap: wrap;
+ }
+
+ .square.whole{
+   padding-left: 2rem;
+   padding-top: 1.5rem;
+   display: flex;
+   align-items: start;
+   flex-direction: column;
  }
 
  .little-square{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .little-square.uno{
+   background-color: #a2d39b;
+   color: white;
+ }
+ .little-square.due{
+   background-color: #61082b;
+ }
+ .little-square.tre{
+   background-color: #0093ce;
+ }
+ .little-square.quattro{
+   background-color: #ff1c1c;
+ }
+ .little-square.cinque{
+   background-color: #d5001f;
+ }
+ .little-square.sei{
+   background-color: #b4d0e7;
+ }
+ .little-square.sette{
+   background-color: #0d2481;
+ }
+ .little-square.otto{
+   background-color: #ffd830;
+ }
+
+ .CEO{
+   margin-top: 3rem;
  }
 
  /* ****SEZIONE SEI**** */
