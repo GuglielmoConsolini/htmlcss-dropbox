@@ -114,15 +114,29 @@ h1{
 
  .sezione-due{
     padding-top: 5rem;
+ }
 
+ #annuale{
+   margin-left: 25px;
  }
 
  h2{
-   font-size: 25px;
+   font-size: 30px;
+   margin: 3rem 0;
+ }
+
+ .tempo{
+   padding-left: 2.5rem;
+ }
+
+ h3{
+   margin-top: 1.5rem;
+   padding-left: 2.5rem;
  }
 
  input[type=radio]{
     margin-top: 20px;
+    margin-bottom: 30px;
  }
 
  .business{
@@ -132,6 +146,7 @@ h1{
 
  .col-container{
     margin: 0 auto;
+    
     display: flex;
     width: 60%;
     justify-content: space-between;
@@ -140,10 +155,19 @@ h1{
 
  }
 
+ .inizio-col{
+   text-align: center;
+   padding: 0.8rem 0;
+ }
+
  .col{
     width: calc(100% / 3 - 10px);
-    height: 700px;
     border: 2px solid #e7e7e8;
+ }
+ .black{
+   padding-left: 2.5rem;
+   color: black;
+   margin: 1.2rem 0;
  }
 
  .team-box{
@@ -151,11 +175,40 @@ h1{
     height: 200px;
     border: 2px solid #e7e7e8;
     margin: 0 auto;
-
+   position: relative;
  }
 
  hr{
     border: 1px solid #e7e7e8;
+ }
+
+ .trattino{
+   border: 1px solid #e7e7e8;
+   width: 15%;
+   margin: 2.5rem 2.5rem;
+ }
+
+ i{
+   color: black;
+   padding-right: 5px;
+ }
+
+ .blue-button.due{
+   margin-left: 2.5rem;
+ }
+
+ .blue-button.tre{
+   position: absolute;
+   right: 20px;
+   top: 50px;
+ }
+
+ li{
+   padding-left: 2.5rem;
+ }
+
+ .text{
+   margin-left: 2.5rem;
  }
 
  /* *****SEZIONE 3***** */
