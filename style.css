@@ -8,36 +8,44 @@
 /* ******HEADER***** */
 
 header{
-    height: 3rem;
+   padding: 1rem 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
+    position: fixed;
+    border-bottom: 1px solid  #b4d0e7;
+}
+
+p{
+   color: #878787;
 }
 
 .left{
     display: flex;
     gap: 20px;
     align-items: center;
+    padding-left: 10px;
 }
 
 .right{
     display: flex;
     gap: 10px;
-    margin-right: 5px;
+    padding-right: 10px;
     align-items: center;
 }
 
 .accedi{
     border: none;
     background-color: white;
+    color: #878787;
 }
 
 .inizia{
     border: none;
     background-color: #1c72ff;
     color: white;
-    padding: 5px 5px;
+    padding: 5px 8px;
 }
 
  /* ******MAIN****** */
@@ -46,38 +54,60 @@ header{
    /* ****SEZIONE 1*****  */
 .sezione-uno{
     background-color: #b4d0e7;
-    height: 50rem;
-    padding-top: 3rem;
+    height: 45rem;
+    padding-top: 5rem;
 }
 
-.title{
+.jumbo-text{
     width: 100%;
-    height: 5rem;
+    padding-left: 230px;
+    margin-top: 3rem;
+    
 }
 
 h1{
-    text-align: center;
-   font-size: 50px;
+   font-size: 75px;
+   font-weight: bold;
 }
  .free-trial{
-    background-color: red;
-    width: 35%;
+    width: 20%;
     height: 500px;
-   
+    color: black;
+ }
+
+ .free-trial > p{
+   color: black;
  }
 
  .container{
-    background-color: aqua;
-    width: 35%;
-    height: 500px;
+    
+    width: 50%;
     
  }
+
+  .jumbotron{
+   width: 100%;
+ }
+
+ .blue-button{
+   background-color: #0061ff;
+   color: white;
+   padding: 10px 12px;
+   margin: 1.5rem 0;
+
+ }
+
+ .fa-solid.fa-arrow-down{
+   font-size: 40px;
+   margin-top: 80px;
+ }
+
  .box{
     display: flex;
     height: 500px;
     width: 100%;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
  }
 
  /* ****SEZIONE DUE**** */
