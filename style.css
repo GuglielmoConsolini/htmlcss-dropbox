@@ -376,13 +376,31 @@ h1{
     justify-content: center;
     align-items: center;
     height: 600px;
+ }
 
+ .fa-solid.fa-chevron-down{
+   margin-left: 7rem;
+ }
+ 
+ .risposta{
+   display: none;
  }
 
  .FAQ{
     width: 60%;
     height: 400px;
-    border: 1px solid gray;
+ }
+ .domanda{
+   color: black;
+   font-size: 18px;
+   padding: 2rem 0;
+ }
+
+ .domanda:hover .fa-solid.fa-chevron-down {
+   transform: rotate(180deg);
+ }
+ .domanda:hover .risposta{
+   display: contents;
  }
 
 
@@ -413,4 +431,5 @@ h1{
     margin-top: 20px;
     font-size: 12px;
  }
+
  
