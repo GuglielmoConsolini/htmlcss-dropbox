@@ -1,3 +1,4 @@
+/* ******COMMON****** */
 *{
  box-sizing: border-box;
  padding: 0;
@@ -5,16 +6,37 @@
  font-family: sans-serif;
 }
 
+.padding-left{
+  padding-left: 2.5rem;
+}
+
+/* ****HOVER**** */
+
+.hdr-container:hover {
+  border-bottom: 1px solid gray;
+}
+
+.little-square.uno:hover{
+  box-shadow: inset 1em 1rem 1rem  red;
+}
+
+
+
 /* ******HEADER***** */
 
 header{
-   padding: 1rem 0;
+   
     width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
     position: fixed;
-    border-bottom: 1px solid  #b4d0e7;
+    border-bottom: 1px solid  #878787;
+    z-index: 999;
+}
+
+.hdr-container{
+  padding: 1.3rem 0.5rem;
 }
 
 p{
@@ -26,6 +48,7 @@ p{
     gap: 20px;
     align-items: center;
     padding-left: 10px;
+    height: 100%;
 }
 
 .right{
@@ -71,13 +94,13 @@ h1{
 }
  .free-trial{
     width: 20%;
-    height: 500px;
     color: black;
+    height: 100%;
  }
 
  .free-trial > p{
-   color: black;
- }
+  color: black;
+}
 
  .container{
     
@@ -99,15 +122,19 @@ h1{
 
  .fa-solid.fa-arrow-down{
    font-size: 40px;
-   margin-top: 80px;
+   display: block;
+   margin-top: 5rem;
  }
 
  .box{
     display: flex;
-    height: 500px;
     width: 100%;
     justify-content: center;
     margin-top: 4rem;
+ }
+
+ a{
+  text-decoration: none;
  }
 
  /* ****SEZIONE DUE**** */
@@ -125,9 +152,6 @@ h1{
    margin: 3rem 0;
  }
 
- .tempo{
-   padding-left: 2.5rem;
- }
 
  h3{
    margin-top: 1.5rem;
@@ -170,6 +194,11 @@ h1{
    margin: 1.2rem 0;
  }
 
+ .fa-solid.fa-check{
+  color: #0061ff;
+  font-size: 18px;
+ }
+
  .team-box{
     width: 60%;
     height: 200px;
@@ -201,10 +230,6 @@ h1{
    position: absolute;
    right: 20px;
    top: 50px;
- }
-
- li{
-   padding-left: 2.5rem;
  }
 
  .text{
@@ -284,7 +309,7 @@ h1{
 
  /* *****SEZIONE CINQUE**** */
 
- .sezione-5{
+ #sezione-5{
    display: flex;
    width: 100%;
    
@@ -292,7 +317,7 @@ h1{
 
  .logo-clienti{
    width: 50%;
-   color: white;
+   filter: invert(1);
  }
  .logo-selezionato{
    width: 60%;
@@ -300,7 +325,7 @@ h1{
 
  .square{
     width: calc(100% / 3);
-    height: 490px;
+    aspect-ratio: 1;
     background-color: #f5f5f5;
     display: flex;
     flex-wrap: wrap;
@@ -325,7 +350,6 @@ h1{
 
  .little-square.uno{
    background-color: #a2d39b;
-   color: white;
  }
  .little-square.due{
    background-color: #61082b;
@@ -384,6 +408,7 @@ h1{
  
  .risposta{
    display: none;
+   margin-bottom: 10px;
  }
 
  .FAQ{
@@ -399,8 +424,8 @@ h1{
  .domanda:hover .fa-solid.fa-chevron-down {
    transform: rotate(180deg);
  }
- .domanda:hover .risposta{
-   display: contents;
+ .domanda:hover + .risposta{
+   display: block;
  }
 
 
@@ -420,6 +445,7 @@ h1{
     height: 300px;
     display: flex;
     justify-content: space-between;
+    position: relative;
  }
 
  ul{
@@ -430,6 +456,21 @@ h1{
  li{
     margin-top: 20px;
     font-size: 12px;
+ }
+
+ .lingue{
+  color: white;
+  position: absolute;
+  bottom: 0;
+ }
+
+ .fa-solid.fa-earth-americas{
+  color: white;
+  margin-top: 2rem;
+ }
+
+ .hr-footer{
+  width: 100px;
  }
 
  
